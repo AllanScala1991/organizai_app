@@ -45,12 +45,14 @@ export function Login() {
                     <h3>LOGIN</h3>
                     <TextField 
                         id="input_username"
+                        style={{width: "70%"}}
                         label="Usuário"
                         margin="normal"
                         onChange={(username: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => setUsername(username.target.value)}
                     />
                     <TextField 
                         id="input_password"
+                        style={{width: "70%"}}
                         label="Senha"
                         type="password"
                         margin="normal"
@@ -58,11 +60,13 @@ export function Login() {
                     />
                     <Button 
                     variant="contained" 
+                    style={{width: "70%", marginTop: "5vh", height: "6vh"}}
                     id="btn_login"
                     onClick={() => login()}
                     >Login</Button>
                     <Button 
-                    variant="outlined" 
+                    variant="outlined"
+                    style={{width: "70%", marginTop: "2vh", height: "6vh"}}
                     id="btn_register"
                     onClick={() => window.location.href = "/create/user"}
                     >Registre-se</Button>

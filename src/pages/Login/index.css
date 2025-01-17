@@ -10,7 +10,7 @@
 
 .loginBox {
     width: 70%;
-    height: 50vh;
+    height: 70vh;
     display: flex;
     flex-direction: row;
     justify-content: left;
@@ -21,7 +21,7 @@
 
 .loginLeftBox {
     width: 50%;
-    height: 50vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,7 +39,7 @@
 
 .loginRightBox {
     width: 50%;
-    height: 50vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,26 +53,6 @@
     font-size: 3vh;
     color: black;
 }
-
-#input_username {
-    width: 30vh;
-}
-
-#input_password {
-    width: 30vh;
-}
-
-#btn_login {
-    width: 32vh;
-    height: 4vh;
-    margin: 1vh 0 1vh 0;
-}
-
-#btn_register {
-    width: 32vh;
-    height: 4vh;
-}
-
 .modal_message_login {
     margin: 1vh;
 }

@@ -10,7 +10,7 @@
 
 .createUserInputs {
     width: 60%;
-    height: 60vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,20 +20,4 @@
 }
 h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-}
-
-.inputs_create_user {
-    width: 30vh;
-}
-
-#btn_register {
-    width: 30vh;
-    height: 4vh;
-    margin: 1vh 0 1vh 0;
-}
-
-.buttons {
-    width: 30vh;
-    height: 4vh;
-    margin: 1vh 0 1vh 0;
 }
